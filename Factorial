@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int a, I;
+    int f=1;
+    scanf("%d",&a);
+    for(i=0;i<=a;i++){
+        f=f*i;
+    }
+    printf("Factorial number:%d",f);
+    return 0;
+}
